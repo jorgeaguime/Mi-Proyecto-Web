@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica_HTML</HTML></title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pastelería ManyCake</title>
+    <link rel="shortcut icon" href="img/pastelería_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>¡DÉJATE ENCANTAR!</h1>
+            <h2>Con el sabor que transformará tus días</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C152.45,-0.48 335.24,172.20 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor-sobre-nosotros">
+            <h2 class="titulo">Nuestro producto</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustración2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>INCÓNICA</h3>
+                    <p>Somos la marca que ha endulzado más momentos en los hogares mexicanos, compartiendo historias desde hace más de 130 años.</p>
+                    <h3><span>2</span>CERCANA</h3>
+                    <p>Somos la panadería y repostería con mayor presencia nacional, comprometidos en hacer sentir a nuestros invitados como en casa para compartir con ellos el sabor de la alegría.</p>
+                    <h3><span>3</span>HUMANA</h3>
+                    <p>Somos un equipo de colaboradores dedicados a consentir a las personas, poniendo el toque humano en cada producto y experiencia.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Galería</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/img1.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>TIRAMISÚ</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>APFELSTRUDEL</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>PAVLOVA</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>ALFAJORES</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>BAKLAVA</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>SACHER</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>BELÉM</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img8.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>CREPÉ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Nuestros Fundadores</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Francine J. Carter</h4>
+                        <p>En 1984, Francine ayudó a fundar la empresa colaborando en el desarrollo de la línea de productos original de ManyCake y la definición del plan de marketing general y universal de la compañía.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Patricia J. Noyes</h4>
+                        <p>Al ser una de las cofundadoras, Patricia ha desempeñado diferentes puestos en la empresa, como vicepresidente del consejo entre 2006 y 2012, presidente y director ejecutivo entre 1996 y 2003, y vicepresidente ejecutivo de ManyCake International. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/ilustración1.svg" alt="">
+                        <h3>Panadería</h3>
+                        <p>Autentico pan tradicional... El arte de ser artesanos desde 1956</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustración2.svg" alt="">
+                        <h3>Repostería</h3>
+                        <p>La fórmula secreta es... Bate con el amor, hornea con pasión y decora con corazón.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustración3.svg" alt="">
+                        <h3>Cocina</h3>
+                        <p>Una comida bien equilibrada es como un poema al desarrollo de la vida.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Contáctanos</h4>
+                <p>1-804-339-1683</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>ManyCake@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Mérida, Yucatán, Méx.</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; @Jorgeaguime | GitHub</h2>
+    </footer>
 </body>
+
 </html>
