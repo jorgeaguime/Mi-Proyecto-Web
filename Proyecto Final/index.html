@@ -13,37 +13,37 @@
 </head>
 
 <body>
-    <header class="header" id="inicio">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-        <nav>
+    <header class="header" id="">
+        <img src="img/open.svg" alt="" class="inicio">
+        <nav class="menu-navegación">
             <a href="#Inicio">Inicio</a>
             <a href="#Nosotros">Nosotros</a>
             <a href="#Galería">Galería</a>
             <a href="#Servicio">Servicio</a>
             <a href="#Contacto">Contacto</a>
         </nav>
-        <section class="textos-header">
+        <section class="textos-header" id="texto">
             <h1>¡DÉJATE ENCANTAR!</h1>
             <h2>Con el sabor que transformará tus días</h2>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C152.45,-0.48 335.24,172.20 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
     </header>
     <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro producto</h2>
+        <section class="contenedor sobre-nosotros" id="servicio">
+            <h2 class="titulo">Nosotros</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/ilustración0.svg" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
-                    <h3><span>1</span>INCÓNICA</h3>
+                    <h3><span>1</span>HISTORIA</h3>
                     <p>Somos la marca que ha endulzado más momentos en los hogares mexicanos, compartiendo historias desde hace más de 130 años.</p>
-                    <h3><span>2</span>CERCANA</h3>
+                    <h3><span>2</span>MISIÓN</h3>
                     <p>Somos la panadería y repostería con mayor presencia nacional, comprometidos en hacer sentir a nuestros invitados como en casa para compartir con ellos el sabor de la alegría.</p>
-                    <h3><span>3</span>HUMANA</h3>
+                    <h3><span>3</span>VISIÓN</h3>
                     <p>Somos un equipo de colaboradores dedicados a consentir a las personas, poniendo el toque humano en cada producto y experiencia.</p>
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="Galería" id="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Galería</h2>
                 <div class="galeria-port">
@@ -106,20 +106,26 @@
                 </div>
             </div>
         </section>
+
+        <section class="image-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="img/img1.png" alt="" class="agregar-imagen">
+        </section>
+
         <section class="clientes contenedor">
             <h2 class="titulo">Nuestros Fundadores</h2>
             <div class="cards">
                 <div class="card">
                     <img src="img/face1.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Francine J. Carter</h4>
+                        <h4>Francine Carter</h4>
                         <p>En 1984, Francine ayudó a fundar la empresa colaborando en el desarrollo de la línea de productos original de ManyCake y la definición del plan de marketing general y universal de la compañía.</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="img/face2.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Patricia J. Noyes</h4>
+                        <h4>Patricia Noyes</h4>
                         <p>Al ser una de las cofundadoras, Patricia ha desempeñado diferentes puestos en la empresa, como vicepresidente del consejo entre 2006 y 2012, presidente y director ejecutivo entre 1996 y 2003, y vicepresidente ejecutivo de ManyCake International. </p>
                     </div>
                 </div>
@@ -163,10 +169,21 @@
                 <p>Mérida, Yucatán, Méx.</p>
             </div>
         </div>
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class="bx bxl-facebook" style="color: white;"></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class="bx bxl-twitter" style="color:white"></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class="bx bxl-instagram" style="color: white"></i>
+            </a>
+        </div>
         <h2 class="titulo-final">&copy; Jorgeaguime | GitHub</h2>
-        <i class="bx bxl-facebook" style="color: white;"></i>
-        <i class="bx bxl-twitter" style="color:white"></i>
-        <i class="bx bxl-instagram" style="color: white"></i>
+        <div class="line"></div>
     </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
 </html>
