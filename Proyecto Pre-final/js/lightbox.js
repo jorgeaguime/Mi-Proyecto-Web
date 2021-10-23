@@ -1,4 +1,4 @@
-const imagenes = document.querySelectorAll('.imagen-port')
+const imagenes = document.querySelectorAll('.img-galeria')
 const imagenLight = document.querySelector('.agregar-imagen');
 const contenedorLight = document.querySelector('.imagen-light')
 const closeLight = document.querySelector('.close')
