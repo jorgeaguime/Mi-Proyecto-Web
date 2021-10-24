@@ -14,7 +14,7 @@ contenedorLight.addEventListener('click',(e)=>{
     if(e.target !== imagenLight){
         contenedorLight.classList.toggle('show')
         imagenLight.classList.toggle('showImage')
-        hamburguer.style.opacity = '1';
+        iconoinicio.style.opacity = '1';
     }
 })
 
@@ -23,5 +23,5 @@ const aparecerImagen = (imagen)=>{
     imagenLight.src = imagen;
     contenedorLight.classList.toggle('show')
     imagenLight.classList.toggle('showImage')
-    hamburguer.style.opacity = '0';
+    iconoinicio.style.opacity= "0";
 }
